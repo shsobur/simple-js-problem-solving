@@ -1,5 +1,3 @@
-# **Basic Programming Challenges Collection**
-
 # Welcome to my **Basic Programming Challenges** repository!
 
 This repository is a collection of various coding challenges I have worked on as a beginner. It includes a wide range of problems—from simple logic challenges to more complex ones. Whether you're looking for the best solution or a simpler, step-by-step approach, you'll find both here.
