@@ -1,6 +1,6 @@
-# **Programming Challenges Collection**
+# **Basic Programming Challenges Collection**
 
-Welcome to my **Programming Challenges** repository! This collection contains various coding challenges I have worked on, ranging from simple logic problems to more complex ones. Below are the challenges I've solved and their corresponding solutions. Feel free to explore, learn, and contribute!
+Welcome to my **Basic Programming Challenges** repository! This collection contains various coding challenges I have worked on, ranging from simple logic problems to more complex ones. Below are the challenges I've solved and their corresponding solutions. Feel free to explore, learn, and contribute!
 
 ---
 
