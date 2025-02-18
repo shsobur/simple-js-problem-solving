@@ -83,7 +83,7 @@ function isBestFriend(f1, f2) {
   }
 }
 
-// Problem-05: Let’s Calculate Video watch Time
+// Problem-05: Let’s Calculate Video watch Time__
 
 function calculateWatchTime(times) {
   let totalSecond = 0;

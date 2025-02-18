@@ -1,0 +1,69 @@
+*Problem-01 : Calculate the cash-out Charge => [
+  Rahim is a small businessman. Every day, he has to make various transactions through bKash.
+
+  One day, a customer came to his shop and said:
+  👉 "Brother, I want to cash out 2000 Taka. How much charge will be deducted?"
+
+  Rahim started calculating in his mind but suddenly thought—
+  “It's a hassle to calculate manually every time! If there were a function that could calculate the charge for any amount, it would be much easier!”
+
+  Since Rahim knows that you are a brilliant student of Programming Hero, your task is to:
+
+  ✅ Create a function called cashOut(), which will take an amount as input and return the cash-out charge.
+
+  💰 Cash-out charge rate: 1.75%
+]
+
+
+
+***Problem-02 : Detect email  valid or not => [
+  Your task is to create a function named validEmail() that takes an email as input and checks whether it is valid or not. The function should return a boolean value (true or false).
+
+  ✅ Conditions for a valid email:
+  1️⃣ The email must not start with any of these special characters: .-_+@.
+  2️⃣ The email must contain @ in the middle.
+  3️⃣ The email must not contain any spaces.
+  4️⃣ The email must end with .com.
+
+  👉 If all these conditions are met, the function should return true. Otherwise, it should return false.
+]
+
+
+
+**Problem-03 : Who will Win  ( 🥭Mango /🍌 Banana ) => [
+  There is intense excitement in Bangladesh's political arena! The Mango Party and Banana Party are facing off in an exciting election! 🗳️
+
+  Voting is happening in full swing, but when it comes to counting the votes, everyone is confused! 😵
+
+  So, your task is to write a function called electionResult() that will take an array as input, count the votes, and declare—
+
+  "Who is the winner?" 🚀
+]
+
+
+
+**Problem-04: Detect The Perfect Best Friend => [
+  📢 Is friendship just words? Or is it real? 🧐
+
+  You need to write a function called isBestFriend(), which will check whether two friends are truly best friends or not! 🔍
+
+  Your function will receive data of two friends.
+
+  ✅ Conditions for true friendship:
+
+  The first person’s bestFriend value must match the second person’s roll.
+  The second person’s bestFriend value must match the first person’s roll.
+  👉 If both conditions are met, they are true best friends! 🚀
+]
+
+
+
+***Problem-05: Let’s Calculate Video watch Time => [
+  Subah spends her whole day watching TikTok, wasting time without studying. Her father is very worried about her time wastage.
+
+  Now, Subah’s father wants to create a function to see exactly how much time Subah wastes watching videos every day.
+
+  Your task is to create a function called calculateWatchTime(), which will take an array as input. The array will store the seconds (as numbers) representing the time Subah spends watching videos.
+
+  The function should calculate the total time and convert it into hours, minutes, and seconds. Then, return it as an object. 🚀
+]
