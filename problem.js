@@ -77,19 +77,52 @@
 
 // Problem-04: Detect The Perfect Best Friend__
 
-function isBestFriend(f1, f2) {
-  if (typeof f1 === "object" && typeof f2 === "object") {
-    if (f1.bestFriend === f2.roll && f2.bestFriend === f1.roll) {
-      return true;
+// function isBestFriend(f1, f2) {
+//   if (typeof f1 === "object" && typeof f2 === "object") {
+//     if (f1.bestFriend === f2.roll && f2.bestFriend === f1.roll) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   } else {
+//     return "Invalid";
+//   }
+// }
+
+// const result = isBestFriend(
+//   { name: "hashem", roll: 1, bestFriend: 1 },
+//   { name: "kashem", roll: 1, bestFriend: 1 }
+// );
+
+// Problem-05: Let’s Calculate Video watch Time
+
+function calculateWatchTime(times) {
+  let totalSecond = 0;
+
+  for (const time of times) {
+    if (typeof time === "number") {
+      totalSecond += time;
     } else {
-      return false;
+      return "Invalid";
     }
-  } else {
-    return "Invalid";
   }
+  
+  const hours = Math.floor(totalSecond / 3600);
+
+  const remainingMinutes = totalSecond % 3600;
+
+  const minutes = Math.floor(remainingMinutes / 60)
+
+  const seconds = remainingMinutes % 60;
+
+  const totalTimeWast = {
+    hour: hours,
+    minute: minutes,
+    second: seconds
+  }
+
+  return totalTimeWast;
 }
 
-const result = isBestFriend(
-  { name: "hashem", roll: 1, bestFriend: 1 },
-  { name: "kashem", roll: 1, bestFriend: 1 }
-);
+const resutl = calculateWatchTime([5600, 345, "45"]);
+console.log(resutl);
