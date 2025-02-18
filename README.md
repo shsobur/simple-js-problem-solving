@@ -1,6 +1,13 @@
 # **Basic Programming Challenges Collection**
 
-Welcome to my **Basic Programming Challenges** repository! This collection contains various coding challenges I have worked on, ranging from simple logic problems to more complex ones. Below are the challenges I've solved and their corresponding solutions. Feel free to explore, learn, and contribute!
+# Welcome to my **Basic Programming Challenges** repository!
+
+This repository is a collection of various coding challenges I have worked on as a beginner. It includes a wide range of problems—from simple logic challenges to more complex ones. Whether you're looking for the best solution or a simpler, step-by-step approach, you'll find both here.
+
+- The challenges and their corresponding solutions are organized below.
+- For simpler, more beginner-friendly solutions, feel free to check out my `problem.js` file.
+
+Feel free to explore, learn, and contribute!
 
 ---
 
